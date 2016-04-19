@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Welcome"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/p2tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="hello user"
+        android:textSize="30sp" />
+    <Button
+            android:id="@+id/bexp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Check score" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/space1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="   "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q1. Who is the current C.M. of Delhi?"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Arvind Kejriwal" />
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Barack Obama" />
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Narendra Modi" />
+
+                <RadioButton
+                    android:id="@+id/radio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sheela Dixit" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/space2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="   "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Q2. Who is the manager of Barcelona football club?"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Messi" />
+
+                <RadioButton
+                    android:id="@+id/radio21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Luis Enrique" />
+
+                <RadioButton
+                    android:id="@+id/radio22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tito Velenova" />
+
+                <RadioButton
+                    android:id="@+id/radio23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Joseph Mourineo" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/space3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="   "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Who is the founder of IIT BHU"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Mahatama Gandhi" />
+
+                <RadioButton
+                    android:id="@+id/radio31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ashim Mukharji" />
+
+                <RadioButton
+                    android:id="@+id/radio32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. Madan Mohan Malviaya" />
+
+                <RadioButton
+                    android:id="@+id/radio33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rajeev Sangal" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/space4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="   "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="How many years technex will complete in 2015?"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radio40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="75" />
+
+                <RadioButton
+                    android:id="@+id/radio41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+
+                <RadioButton
+                    android:id="@+id/radio42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="52" />
+
+                <RadioButton
+                    android:id="@+id/radio43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="76" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    
+       
+
+</LinearLayout>

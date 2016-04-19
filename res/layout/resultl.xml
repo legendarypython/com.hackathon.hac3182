@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvrxfix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Result"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tvfname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvfscore1"
+        android:layout_alignBottom="@+id/tvfscore1"
+        android:layout_alignRight="@+id/tvname"
+        android:text="player"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvrxfix"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="50dp"
+        android:layout_toLeftOf="@+id/tvrxfix"
+        android:text="NAME"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvname"
+        android:layout_alignBottom="@+id/tvname"
+        android:layout_toRightOf="@+id/tvrxfix"
+        android:text="SCORE"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvfscore1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvscore"
+        android:layout_below="@+id/tvscore"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="40dp"
+        android:text="score"
+        android:textSize="20sp" />
+
+</RelativeLayout>
